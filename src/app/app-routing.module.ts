@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { LayoutfullComponent } from './layout/layoutfull/layoutfull.component';
 import { RouterModule, Routes } from '@angular/router';
+import { LayoutfullComponent } from './layout/layoutfull/layoutfull.component';
 
 const routes: Routes = [
   {
@@ -22,9 +21,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
