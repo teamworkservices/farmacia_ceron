@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "Bauhaus Bold Italic";
+    src: url(../assets/resources/bauhaus-bold-bt_[allfont.es].ttf);
+}
+
+::ng-deep .items-menu{
+    width: 230px !important;
+  }
