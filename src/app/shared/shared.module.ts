@@ -5,6 +5,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import {MatIconModule} from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [],
@@ -13,13 +14,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatGridListModule,
     MatIconModule,
     MatTabsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatTableModule
   ],
   exports: [
     MatGridListModule,
     MatIconModule,
     MatTabsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatTableModule
   ]
 })
 export class SharedModule { }
