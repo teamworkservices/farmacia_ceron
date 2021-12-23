@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
   }
 
   logOut(){
-
+    alert("cerrando sesion");
   }
   
 
