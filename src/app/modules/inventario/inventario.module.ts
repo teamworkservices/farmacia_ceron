@@ -9,6 +9,9 @@ import { EditarDosificacionComponent } from './components/editar-dosificacion/ed
 import { LaboratorioComponent } from './components/laboratorio/laboratorio.component';
 import { CrearLaboratorioComponent } from './components/crear-laboratorio/crear-laboratorio.component';
 import { EditarLaboratorioComponent } from './components/editar-laboratorio/editar-laboratorio.component';
+import { MedicamentoComponent } from './components/medicamento/medicamento.component';
+import { CrearMedicamentoComponent } from './components/crear-medicamento/crear-medicamento.component';
+import { EditarMedicamentoComponent } from './components/editar-medicamento/editar-medicamento.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { EditarLaboratorioComponent } from './components/editar-laboratorio/edit
     EditarDosificacionComponent,
     LaboratorioComponent,
     CrearLaboratorioComponent,
-    EditarLaboratorioComponent
+    EditarLaboratorioComponent,
+    MedicamentoComponent,
+    CrearMedicamentoComponent,
+    EditarMedicamentoComponent
   ],
   imports: [
     CommonModule,
