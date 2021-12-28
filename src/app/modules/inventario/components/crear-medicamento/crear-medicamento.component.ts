@@ -22,10 +22,7 @@ export class CrearMedicamentoComponent implements OnInit {
       codigoCompraCtrl: ['', [Validators.required, Validators.maxLength(3)]],
       codigoBarraCtrl: ['', [Validators.required, Validators.maxLength(20)]],
       nombreCtrl: ['', [Validators.required, Validators.maxLength(20)]],
-      labCtrl: ['', [Validators.required, Validators.maxLength(20)]],
-      cantidadCtrl: ['', [Validators.required, Validators.maxLength(20)]],
-      precioCtrl: ['', [Validators.required, Validators.maxLength(20)]],
-      dosCtrl: ['', [Validators.required, Validators.maxLength(20)]],
+
     })
   }
 
