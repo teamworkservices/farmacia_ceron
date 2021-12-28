@@ -32,7 +32,47 @@
           <input matInput #input maxlength="20" autocomplete="off" formControlName="nombreCtrl">
         </mat-form-field>
       </mat-grid-tile>
+
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-label>LABORATORIO:</mat-label>
+      </mat-grid-tile>
   
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-form-field appearance="fill">
+          <input matInput #input maxlength="20" autocomplete="off" formControlName="labCtrl">
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-label>CANTIDAD:</mat-label>
+      </mat-grid-tile>
+  
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-form-field appearance="fill">
+          <input matInput #input maxlength="20" autocomplete="off" formControlName="cantidadCtrl">
+        </mat-form-field>
+      </mat-grid-tile>
+
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-label>PRECIO:</mat-label>
+      </mat-grid-tile>
+  
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-form-field appearance="fill">
+          <input matInput #input maxlength="20" autocomplete="off" formControlName="precioCtrl">
+        </mat-form-field>
+      </mat-grid-tile>
+  
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-label>DOSIFICACIÓN:</mat-label>
+      </mat-grid-tile>
+  
+      <mat-grid-tile [colspan]="1" [rowspan]="1">
+        <mat-form-field appearance="fill">
+          <input matInput #input maxlength="20" autocomplete="off" formControlName="dosCtrl">
+        </mat-form-field>
+      </mat-grid-tile>
+
       <mat-grid-tile [colspan]="2" [rowspan]="1">
         <button [disabled]="form.invalid" color="primary" mat-button
                 (click)="confirmModal()" mat-raised-button type="submit">

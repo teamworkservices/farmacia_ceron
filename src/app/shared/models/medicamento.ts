@@ -5,7 +5,7 @@ export class Medicamento {
     codigoBarra!: string;
     nombre!: string;
     laboratorio!: string;
-    cantidad!: string;
+    cantidad!: number;
     precio!: number;
     dosificacion!: string;
     

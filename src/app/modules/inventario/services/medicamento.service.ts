@@ -10,9 +10,9 @@ import { environment } from 'src/environments/environment';
 export class MedicamentoService {
 
   medicamentoData: Medicamento[] = [
-    {id: 1, codigoCompra: 1, codigoBarra: 'aaa', nombre: 'Primer medicamento', laboratorio: 'A', cantidad: 'Cantidad 1', precio: 123, dosificacion: 'Dosificación 1'},
-    {id: 2, codigoCompra: 2, codigoBarra: 'bbb', nombre: 'Segundo medicamento', laboratorio: 'B', cantidad: 'Cantidad 2', precio: 234, dosificacion: 'Dosificación 2'},
-    {id: 3, codigoCompra: 3, codigoBarra: 'ccc', nombre: 'Tercer medicamento', laboratorio: 'C', cantidad: 'Cantidad 3', precio: 345, dosificacion: 'Dosificación 3'},
+    {id: 1, codigoCompra: 1, codigoBarra: 'aaa', nombre: 'Primer medicamento', laboratorio: 'A', cantidad: 1, precio: 123, dosificacion: 'Dosificación 1'},
+    {id: 2, codigoCompra: 2, codigoBarra: 'bbb', nombre: 'Segundo medicamento', laboratorio: 'B', cantidad: 1, precio: 234, dosificacion: 'Dosificación 2'},
+    {id: 3, codigoCompra: 3, codigoBarra: 'ccc', nombre: 'Tercer medicamento', laboratorio: 'C', cantidad: 1, precio: 345, dosificacion: 'Dosificación 3'},
   ];
 
   constructor() { }
